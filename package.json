@@ -1,0 +1,19 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Dummy test",
+  "main": "index.js",
+  "scripts": {
+    "clean-install": "rm -rf node_modules/ dist/ ; npm i",
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Diego Leonel Cañete Crescini",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.2"
+  }
+}
